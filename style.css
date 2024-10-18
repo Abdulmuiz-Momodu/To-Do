@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: darkkhaki;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+    height: 100vh;
+    width: 40rem;
+}
+
+#add {
+    background: green;
+    width: 19%;
+}
+
+.todoItem {
+    display: flex;
+    gap: 1%;
+}
+
+input {
+    height: 2.5rem;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background-color: red;
+    width: 19%;
+}
+
+#inputTO-DO {
+    width: 50%;
+}
+
+#pickto-doDate {
+    width: 30%;
+    cursor: text;
+}
+
+#listed-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+#listed-items div {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
